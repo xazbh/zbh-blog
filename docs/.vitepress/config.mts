@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/zbh-blog/',
   title: "Zbh Blog",
   description: "Welcome to Zbh's blog!",
   themeConfig: {
